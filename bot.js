@@ -2,11 +2,11 @@ const mineflayer = require('mineflayer');
 const config = require('./config.json');
 
 const bot = mineflayer.createBot({
-  host: config.serverHost,
-  port: config.serverPort,
-  username: config.botUsername,
-  auth: 'offline',
-  version: false,
+  host: config.bestrankedsmp.mcsh.io,
+  port: config.25565,
+  username: config.lamineyamal,
+  auth: 'mhd12345',
+  version: true,
   viewDistance: config.botChunk
 });
 
